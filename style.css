@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-box {
+    height: 75%;
+    width: 28%;
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px grey;
+    text-align: center;
+    background-color: white;
+}
+
+button {
+    height: 5.5vh;
+    width: 7vw;
+    cursor: pointer;
+    font-size: 1vw;
+    font-weight: 500;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.result {
+    height: 10vh;
+    width: 100%;
+    border: 2px solid black;
+}
+
+
+@media (max-width : 600px) {
+    .main-box{
+        width: 50%;
+    }
+    button{
+        width: 15vw;
+        font-size: 2vw;
+    }
+    
+}
